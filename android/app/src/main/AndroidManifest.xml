@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
     <application
         android:label="map_location"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-         <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-         <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
